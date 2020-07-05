@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AAA Life Insurance Test Suite" parallel="false">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="83.0"/>
+    <parameter name="url" value="https://www.aaalife.com/term-life-insurance-quote-input"/>
+    <parameter name="platform" value="Windows"/>
+
+    <test name="Forms">
+        <classes>
+            <class name="testPages.TestQuotationForm"/>
+        </classes>
+    </test>
+
+</suite>
